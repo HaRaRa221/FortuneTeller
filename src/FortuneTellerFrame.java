@@ -1,6 +1,5 @@
 import javax.swing.*;
 import java.awt.*;
-import java.awt.ActiveEvent;
 import java.awt.event.ActionEvent;
 import java.util.Random;
 
@@ -75,7 +74,7 @@ public class FortuneTellerFrame extends JFrame
     }
 
     private void createTopP() {
-        magicIcon =new ImageIcon("src//fortuneTeller.png");
+        magicIcon =new ImageIcon("src\\fortuneTeller.png");
 
         icon = new JLabel("Magic Awaits! Care to read out your fortune?", magicIcon, JLabel.CENTER);
         icon.setFont(new Font(Font.SERIF, Font.ROMAN_BASELINE, 25));
